@@ -169,6 +169,11 @@ section {
         flex-direction: column;
         align-items:center;
     }
+    .hero img {
+        width: 80%;
+        height: 80%;
+        margin-top: 150px;
+    }
 } 
 
  @media screen and (max-width:900px) {
@@ -179,7 +184,7 @@ section {
     .hero img {
         width: 80%;
         height: 80%;
-        z-index: -500;
+        margin-top: 10%;
     }
     .headline{
         z-index: -500;
